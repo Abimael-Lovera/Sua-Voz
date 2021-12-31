@@ -23,45 +23,10 @@
 	</head>
 	<body>
 		<!--==================== NAV BAR ====================-->
-		<!-- <div class="container">
-			<nav class="navbar navbar-expand-lg navbar-light p-md-3">
-				<div class="container">
-					<a class="navbar-brand nav_logo" href="home.html">
-						
-						<h2 class="fs-1">Sua Voz</h2>
-					</a>
-					<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-						<span class="navbar-toggler-icon"></span>
-					</button>
-
-					<div class="collapse navbar-collapse" id="navbarNav">
-						<div class="mx-auto"></div>
-						<ul class="navbar-nav">
-							<li class="nav-item">
-								<a class="nav-link nav_links" href="destinos.html"><i class="fa-solid fa-house"></i> Home</a>
-							</li>
-							<li class="nav-item">
-								<a class="nav-link nav_links" href="promocoes.html"> <i class="fa-solid fa-briefcase"></i> Sobre nós </a>
-							</li>
-							<li class="nav-item">
-								<a class="nav-link nav_links" href="contact.html"> <i class="fa-solid fa-book-open-reader"></i> Seus Direitos </a>
-							</li>
-							<li class="nav-item">
-								<a class="nav-link nav_links" href="login.html"> Login <i class="fa-solid fa-right-to-bracket"></i> </a>
-							</li>
-							<li class="nav-item">
-								<a class="nav-link nav_links nav_btn" href="login.html">Criar Conta</a>
-							</li>
-						</ul>
-					</div>
-				</div>
-			</nav>
-		</div> -->
-		<!--  -->
 
 		<nav class="navbar navbar-expand-md navbar-dark fixed-top navbar__container">
 			<div class="container">
-				<a class="navbar-brand" href="#">
+				<a class="navbar-brand" href="index.html">
 					<img src="img/suaVoz-maltesse.png" alt="" />
 				</a>
 				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
@@ -71,19 +36,19 @@
 					<div class="mx-auto"></div>
 					<ul class="navbar-nav">
 						<li class="nav-item">
-							<a class="nav-link active" aria-current="page" href="#"> <i class="fa-solid fa-house"></i> Home </a>
+							<a class="nav-link active" aria-current="page" href="index.html"> <i class="fa-solid fa-house"></i> Home </a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="#"> <i class="fa-solid fa-briefcase"></i> Sobre nós </a>
+							<a class="nav-link" href="about.html"> <i class="fa-solid fa-briefcase"></i> Sobre nós </a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link disabled"> <i class="fa-solid fa-book-open-reader"></i> Seus Direitos </a>
+							<a class="nav-link" href="rights.html"> <i class="fa-solid fa-book-open-reader"></i> Seus Direitos </a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link disabled">Login <i class="fa-solid fa-right-to-bracket"></i></a>
+							<a class="nav-link">Login <i class="fa-solid fa-right-to-bracket"></i></a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link disabled">Criar Conta </a>
+							<a class="nav-link">Criar Conta </a>
 						</li>
 					</ul>
 				</div>
@@ -93,7 +58,35 @@
 		<!--==================== Main ====================-->
 
 		<main class="main">
-			<!--==================== HERO ====================-->
+			<!--==================== Hero Rights ====================-->
+			<section class="heroRights__container">
+				<div class="container heroRights__content">
+					<img src="img/mulher-preta.png" alt="" class="heroRights__content-img" />
+					<div class="heroRights__body">
+						<h1 class="heroRights__body-title">O Lixo Eletrônico no Brasil</h1>
+						<p class="heroRights__body-paragraph">Com o avanço da tecnologia houve um aumento considerável no consumo de equipamentos eletrônicos gerando um acúmulo de lixo eletrônico. Segundo relatório do Programa das Nações Unidas pelo Meio Ambiente - PNUMA - sobre lixo eletrônico,<strong>o Brasil é o país da América Latina que mais gera lixo eletrônico: foram 1,4 milhões de toneladas por ano (7 quilos por pessoa).</strong></p>
+					</div>
+				</div>
+			</section>
+			<!--==================== Solucao ====================-->
+			<section class="aboutContent__container">
+				<div class="container aboutContent__content">
+					<article class="aboutSolucao">
+						<div class="aboutSolucao__body">
+							<h2 class="aboutSolucao__body-title">Nossa solução</h2>
+							<h6 class="aboutSolucao__body-subtitle">Com o objetivo de contribuir para um mundo conectado e sustentável, criamos o e-Leve.</h6>
+							<p class="aboutSolucao__body-paragraph">e-Leve é um aplicativo que facilita e incentiva o descarte correto de lixo eletrônico na cidade do Rio de Janeiro. Através dele é possível localizar pontos de coleta cadastrados e ganhar descontos com o descarte para que possam ser utilizados em estabelecimentos parceiros.</p>
+							<p>Nós, desenvolvedores desse projeto, acreditamos que, muito mais do que uma simples ferramenta, o e-Leve é um motor de transformação.</p>
+						</div>
+						<img src="img/undraw_updates_re_o5af (1).svg" alt="" class="aboutSolucao__img" />
+					</article>
+					<article class="aboutProcesso">
+						<img src="img/undraw_data_processing_yrrv.svg" alt="" class="aboutProcesso__img" />
+						<h2 class="aboutProcesso__title">Conversão e Impacto</h2>
+					</article>
+				</div>
+			</section>
+			<!--==================== Equipe ====================-->
 			<section class="equipe__container">
 				<div class="container-xl">
 					<div class="equipe__content">
@@ -166,7 +159,6 @@
 					</div>
 				</div>
 			</section>
-			<!--==================== PARCEIROS ====================-->
 		</main>
 
 		<!-- <img src="https://randomuser.me/api/portraits/women/50.jpg" id="large_img" class="come_in come_in" /> -->

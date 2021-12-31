@@ -19,12 +19,70 @@
 	margin: 0;
 	padding: 0;
 }
+/* Hero Rights */
+.heroRights__container {
+	background: var(--color-preto);
+}
+.heroRights__content {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	padding: 1rem 0;
+	min-height: 500px;
+}
 
+.heroRights__content-img {
+	height: 400px;
+	/* width: 280px; */
+}
+
+.heroRights__body {
+	color: var(--color-bg);
+	max-width: 65%;
+	padding: 1rem;
+}
+
+/* AboutContent */
+.aboutContent__container {
+	background: var(--color-bg);
+	padding: 2rem 0;
+}
+
+.aboutSolucao {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+
+	padding: 1rem 0;
+}
+.aboutSolucao__body {
+	max-width: 500px;
+}
+.aboutSolucao__img {
+	max-width: 300px;
+}
+.aboutProcesso {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+
+	padding: 1rem 0;
+}
+/* About Processo */
+.aboutProcesso__img {
+	width: 400px;
+}
 /* Equipe card */
 .equipe__container {
 	background: var(--color-creme);
 	padding: 1rem 0;
 	height: 100%;
+	background: var(--color-maltesse);
 }
 .equipe__content {
 	display: flex;
@@ -32,11 +90,12 @@
 	justify-content: space-evenly;
 	align-items: center;
 	gap: 1rem;
+	padding: 1rem 0;
 }
 
 .equipe__card {
 	padding: 1rem;
-	background: var(--color-maltesse);
+
 	width: 360px;
 	display: flex;
 	flex-direction: column;
@@ -67,4 +126,18 @@
 }
 .equipe__card-social:hover {
 	color: var(--color-bg);
+}
+
+@media (max-width: 1000px) {
+	.heroRights__body {
+		max-width: 400px;
+	}
+	.aboutProcesso {
+		flex-wrap: wrap-reverse;
+	}
+}
+@media (max-width: 768px) {
+	.heroRights__body {
+		max-width: 100%;
+	}
 }
