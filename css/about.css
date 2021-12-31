@@ -1,0 +1,70 @@
+:root {
+	--color-title: #43281c;
+	--color-title1: #fff;
+	--color-subtitle: #a62940;
+	--color-bg: #fbf2c0;
+	--color-footer: #bf8069;
+
+	--color-preto: #262626;
+	--color-branco: #fff;
+	--color-marron: #43281c;
+	--color-grena: #a62940;
+	--color-creme: #fbf2c0;
+	--color-maltesse: #bf8069;
+	--color-roxo: #400135;
+	--color-preto2: #261f1d;
+}
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+/* Equipe card */
+.equipe__container {
+	background: var(--color-creme);
+	padding: 1rem 0;
+	height: 100%;
+}
+.equipe__content {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	align-items: center;
+	gap: 1rem;
+}
+
+.equipe__card {
+	padding: 1rem;
+	background: var(--color-maltesse);
+	width: 360px;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	border-radius: 1rem;
+	gap: 1rem;
+	align-items: center;
+}
+.equipe__card img {
+	clip-path: polygon(50% 0%, 83% 12%, 100% 43%, 94% 78%, 68% 100%, 32% 100%, 6% 78%, 0% 43%, 17% 12%);
+}
+.equipe__card-title {
+	margin: 0;
+	font-size: 1.5rem;
+}
+.equipe__card-txt {
+	margin: 0;
+	font-size: 1rem;
+}
+.equipe__card-links {
+	display: flex;
+	justify-content: center;
+	gap: 1rem;
+}
+.equipe__card-social {
+	font-size: 2rem;
+	color: var(--color-preto);
+}
+.equipe__card-social:hover {
+	color: var(--color-bg);
+}
