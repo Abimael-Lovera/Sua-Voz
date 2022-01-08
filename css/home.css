@@ -68,8 +68,6 @@
 }
 .conquistas__title {
 	padding-top: 2rem;
-	font-size: 2.5rem;
-	text-align: center;
 }
 .conquistas__content {
 	padding: 1rem 0;
@@ -131,6 +129,8 @@
 /* Lives */
 .lives__container {
 	padding: 2rem 0;
+	background: var(--color-preto);
+	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80' height='80' viewBox='0 0 80 80'%3E%3Cg fill='%23bf8069' fill-opacity='0.42'%3E%3Cpath fill-rule='evenodd' d='M11 0l5 20H6l5-20zm42 31a3 3 0 1 0 0-6 3 3 0 0 0 0 6zM0 72h40v4H0v-4zm0-8h31v4H0v-4zm20-16h20v4H20v-4zM0 56h40v4H0v-4zm63-25a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm10 0a3 3 0 1 0 0-6 3 3 0 0 0 0 6zM53 41a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm10 0a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm10 0a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm-30 0a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm-28-8a5 5 0 0 0-10 0h10zm10 0a5 5 0 0 1-10 0h10zM56 5a5 5 0 0 0-10 0h10zm10 0a5 5 0 0 1-10 0h10zm-3 46a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm10 0a3 3 0 1 0 0-6 3 3 0 0 0 0 6zM21 0l5 20H16l5-20zm43 64v-4h-4v4h-4v4h4v4h4v-4h4v-4h-4zM36 13h4v4h-4v-4zm4 4h4v4h-4v-4zm-4 4h4v4h-4v-4zm8-8h4v4h-4v-4z'/%3E%3C/g%3E%3C/svg%3E");
 }
 .lives__content {
 	display: flex;
@@ -143,6 +143,7 @@
 	margin: 1.5rem 0 2rem 0;
 }
 .lives_card {
+	background: var(--color-preto);
 	/* border: 2px solid #fff; */
 	box-shadow: 1px 1px 10px 0px rgba(0, 0, 0, 0.3);
 	-webkit-box-shadow: 1px 1px 10px 0px rgba(0, 0, 0, 0.3);
@@ -197,7 +198,7 @@
 /* Parceiros */
 
 .parceiros__container {
-	border: 3px solid var(--color-preto);
+	/* border: 3px solid var(--color-preto); */
 	background-color: #fbf2c0;
 	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80' height='80' viewBox='0 0 80 80'%3E%3Cg fill='%23bf8069' fill-opacity='0.42'%3E%3Cpath fill-rule='evenodd' d='M11 0l5 20H6l5-20zm42 31a3 3 0 1 0 0-6 3 3 0 0 0 0 6zM0 72h40v4H0v-4zm0-8h31v4H0v-4zm20-16h20v4H20v-4zM0 56h40v4H0v-4zm63-25a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm10 0a3 3 0 1 0 0-6 3 3 0 0 0 0 6zM53 41a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm10 0a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm10 0a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm-30 0a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm-28-8a5 5 0 0 0-10 0h10zm10 0a5 5 0 0 1-10 0h10zM56 5a5 5 0 0 0-10 0h10zm10 0a5 5 0 0 1-10 0h10zm-3 46a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm10 0a3 3 0 1 0 0-6 3 3 0 0 0 0 6zM21 0l5 20H16l5-20zm43 64v-4h-4v4h-4v4h4v4h4v-4h4v-4h-4zM36 13h4v4h-4v-4zm4 4h4v4h-4v-4zm-4 4h4v4h-4v-4zm8-8h4v4h-4v-4z'/%3E%3C/g%3E%3C/svg%3E");
 	padding: 1rem;
@@ -225,6 +226,64 @@
 	max-height: 80px;
 }
 
+/*  */
+/* Form Contact */
+.contact {
+	/* height: 100vh; */
+	padding: 2rem 0;
+	display: flex;
+	background-color: var(--color-preto);
+	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80' height='80' viewBox='0 0 80 80'%3E%3Cg fill='%23bf8069' fill-opacity='0.42'%3E%3Cpath fill-rule='evenodd' d='M11 0l5 20H6l5-20zm42 31a3 3 0 1 0 0-6 3 3 0 0 0 0 6zM0 72h40v4H0v-4zm0-8h31v4H0v-4zm20-16h20v4H20v-4zM0 56h40v4H0v-4zm63-25a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm10 0a3 3 0 1 0 0-6 3 3 0 0 0 0 6zM53 41a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm10 0a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm10 0a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm-30 0a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm-28-8a5 5 0 0 0-10 0h10zm10 0a5 5 0 0 1-10 0h10zM56 5a5 5 0 0 0-10 0h10zm10 0a5 5 0 0 1-10 0h10zm-3 46a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm10 0a3 3 0 1 0 0-6 3 3 0 0 0 0 6zM21 0l5 20H16l5-20zm43 64v-4h-4v4h-4v4h4v4h4v-4h4v-4h-4zM36 13h4v4h-4v-4zm4 4h4v4h-4v-4zm-4 4h4v4h-4v-4zm8-8h4v4h-4v-4z'/%3E%3C/g%3E%3C/svg%3E");
+}
+.form {
+	display: flex;
+	background: transparent;
+	width: 90%;
+	margin: auto;
+	/* margin-top: 100px; */
+	max-width: 500px;
+	min-width: 300px;
+	/* padding: 3.5em 1.5em; */
+	/* border: 3px solid var(--color-subtitle); */
+}
+
+.form_container {
+	width: 100%;
+	display: grid;
+	gap: 1em;
+	grid-auto-columns: 100%;
+}
+.form_title {
+	text-align: center;
+	font-size: 2em;
+	color: var(--color-bg);
+}
+.form_input {
+	background: var(--color-bg);
+	font-size: 1em;
+	padding: 0.8em 1em;
+	border: none;
+	border: 1px solid #bbb0b0;
+	border-radius: 0.2em;
+	/* background: transparent; */
+}
+
+.form_input-message {
+	resize: none;
+	padding: 1.8em 1em;
+}
+
+.form_cta {
+	font-size: 1em;
+	background: var(--color-maltesse);
+	color: #fff;
+	border: none;
+	padding: 0.7em 0;
+	border-radius: 0.2em;
+	cursor: pointer;
+	font-weight: 600;
+}
+
 @media (max-width: 992px) {
 	.features__article-title {
 		max-width: 90%;
@@ -232,7 +291,7 @@
 }
 @media (max-width: 767px) {
 	.carousel-item {
-		height: 20rem;
+		max-height: 20rem;
 	}
 	.carousel-caption p {
 		margin-bottom: 1.25rem;

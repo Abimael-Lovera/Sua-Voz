@@ -22,36 +22,38 @@
 	<body>
 		<!--==================== NAV BAR ====================-->
 
-		<nav class="navbar navbar-expand-md navbar-dark fixed-top navbar__container">
-			<div class="container">
-				<a class="navbar-brand" href="index.html">
-					<img src="img/suaVoz-maltesse.png" alt="" />
-				</a>
-				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-					<span class="navbar-toggler-icon"></span>
-				</button>
-				<div class="collapse navbar-collapse" id="navbarCollapse">
-					<div class="mx-auto"></div>
-					<ul class="navbar-nav">
-						<li class="nav-item">
-							<a class="nav-link active" aria-current="page" href="#"> <i class="fa-solid fa-house"></i> Home </a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="about.html"> <i class="fa-solid fa-briefcase"></i> Sobre nós </a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="rights.html"> <i class="fa-solid fa-book-open-reader"></i> Seus Direitos </a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#">Login <i class="fa-solid fa-right-to-bracket"></i></a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#">Criar Conta</a>
-						</li>
-					</ul>
+		<header>
+			<nav class="navbar navbar-expand-md navbar-dark fixed-top navbar__container">
+				<div class="container">
+					<a class="navbar-brand" href="index.html">
+						<img src="img/suaVoz-maltesse.png" alt="" />
+					</a>
+					<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse" id="navbarCollapse">
+						<div class="mx-auto"></div>
+						<ul class="navbar-nav">
+							<li class="nav-item">
+								<a class="nav-link active" aria-current="page" href="index.html"> <i class="fa-solid fa-house"></i> Home </a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="about.html"> <i class="fa-solid fa-briefcase"></i> Sobre nós </a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="rights.html"> <i class="fa-solid fa-book-open-reader"></i> Seus Direitos </a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">Login <i class="fa-solid fa-right-to-bracket"></i></a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">Criar Conta</a>
+							</li>
+						</ul>
+					</div>
 				</div>
-			</div>
-		</nav>
+			</nav>
+		</header>
 
 		<!--==================== Main ====================-->
 		<main class="main">
@@ -259,6 +261,18 @@
 					</li>
 				</ul>
 			</div>
+		</section>
+		<!--==================== FORM CONTACT ====================-->
+		<section class="contact">
+			<form class="form" action="https://formspree.io/f/xrgjgyed" method="POST">
+				<div class="form_container">
+					<h2 class="form_title title-light">Seja Nosso Parceiro</h2>
+					<input type="text" class="form_input" placeholder="Nome" name="name" />
+					<input type="email" class="form_input" placeholder="Email" name="email" />
+					<textarea class="form_input form_input-message" placeholder="Escreva seu messagem" name="message"></textarea>
+					<input type="submit" class="form_cta" value="Enviar" />
+				</div>
+			</form>
 		</section>
 
 		<!--==================== FOOTER ====================-->
