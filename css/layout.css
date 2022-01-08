@@ -50,6 +50,7 @@ ul {
 }
 .main {
 	margin-top: 76px;
+	overflow: hidden;
 }
 /* Footer */
 

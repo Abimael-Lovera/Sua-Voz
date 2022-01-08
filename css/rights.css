@@ -26,6 +26,7 @@
 	background-image: url('../img/wave.svg');
 	background-repeat: no-repeat;
 	background-position: bottom;
+	background-size: 100% auto;
 }
 
 .direitosHero__content {
@@ -59,9 +60,10 @@
 
 .direitos__content-paragraph {
 	margin-bottom: 0;
-	max-width: 700px;
+	max-width: 800px;
 	min-width: 200px;
 	font-size: 1.2rem;
+	text-align: justify;
 }
 
 /* Diretios Body */
@@ -85,6 +87,7 @@
 	-moz-box-shadow: 1px 1px 10px 0px rgba(255, 255, 255, 0.3); */
 	border-radius: 2rem;
 	width: 330px;
+	height: 360px;
 	background: var(--color-preto);
 	color: var(--color-bg);
 	overflow: hidden;
@@ -97,6 +100,9 @@
 } */
 .direitosBodys_card-img img {
 	width: 100%;
+	height: 200px;
+	object-fit: cover;
+	object-position: center;
 }
 
 .direitosBodys_card-body {
@@ -109,7 +115,8 @@
 
 .direitosBodys_card-title {
 	font-weight: bold;
-	padding: 1rem;
+	padding: 0 1rem;
+	text-align: center;
 }
 
 .direitosBodys_card-paragraph {

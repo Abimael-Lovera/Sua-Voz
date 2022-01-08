@@ -56,6 +56,19 @@
 	object-position: center center;
 	opacity: 0.5;
 }
+.hover__cta {
+	background: var(--color-maltesse);
+	color: var(--color-bg);
+	padding: 0.5rem;
+	font-size: 1.2rem;
+	border-radius: 0.5rem;
+}
+
+.hover__cta:hover {
+	background: var(--color-bg);
+	color: var(--color-maltesse);
+	font-weight: 700;
+}
 
 /* Consquitas */
 .conquistas__container {
