@@ -48,7 +48,23 @@
 	padding: 2rem 0;
 }
 
-/*  */
+/* Direitos Content */
+
+.direitos__content {
+	background: var(--color-bg);
+	display: grid;
+	place-content: center;
+	padding-top: 2rem;
+}
+
+.direitos__content-paragraph {
+	margin-bottom: 0;
+	max-width: 700px;
+	min-width: 200px;
+	font-size: 1.2rem;
+}
+
+/* Diretios Body */
 
 .direitosBodys__container {
 	padding: 2rem 0;
@@ -93,6 +109,7 @@
 
 .direitosBodys_card-title {
 	font-weight: bold;
+	padding: 1rem;
 }
 
 .direitosBodys_card-paragraph {
