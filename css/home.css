@@ -1,5 +1,5 @@
 :root {
-	--color-title: #43281c;
+	--color-title: #262626;
 	--color-title1: #fff;
 	--color-subtitle: #a62940;
 	--color-bg: #fbf2c0;
@@ -119,13 +119,81 @@
 }
 
 .features__article-title {
+	font-size: 1.7rem;
 	max-width: 40%;
 	text-align: center;
 }
 .features__article-img {
 	max-width: 550px;
+	margin: 1rem;
 }
 
+/* Lives */
+.lives__container {
+	padding: 2rem 0;
+}
+.lives__content {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	gap: 2rem;
+}
+.lives__title {
+	margin: 1.5rem 0 2rem 0;
+}
+.lives_card {
+	/* border: 2px solid #fff; */
+	box-shadow: 1px 1px 10px 0px rgba(0, 0, 0, 0.3);
+	-webkit-box-shadow: 1px 1px 10px 0px rgba(0, 0, 0, 0.3);
+	-moz-box-shadow: 1px 1px 10px 0px rgba(0, 0, 0, 0.3);
+	border-radius: 2rem;
+	width: 330px;
+	color: var(--color-bg);
+	overflow: hidden;
+	box-shadow: #261f1d;
+}
+
+/* .lives_card-img {
+	border-radius: 2rem;
+	
+} */
+.lives_card-img img {
+	width: 100%;
+}
+
+.lives_card-body {
+	padding: 1rem 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.lives_card-title {
+	font-weight: bold;
+}
+
+.lives_card-paragraph {
+	padding: 0 1rem;
+}
+
+.lives_card-btn {
+	text-decoration: none;
+	border: 2px solid transparent;
+	border-radius: 3rem;
+	background: transparent;
+	color: var(--color-maltesse);
+	padding: 0.6rem 1rem;
+	margin-top: 1rem;
+}
+
+.lives_card-btn:hover {
+	/* background: var(--color-bg); */
+	border: 2px solid var(--color-bg);
+	color: var(--color-bg);
+	font-weight: bold;
+}
 /* Parceiros */
 
 .parceiros__container {
@@ -156,11 +224,7 @@
 	max-width: 150px;
 	max-height: 80px;
 }
-.card-cover {
-	background-repeat: no-repeat;
-	background-position: center center;
-	background-size: cover;
-}
+
 @media (max-width: 992px) {
 	.features__article-title {
 		max-width: 90%;
