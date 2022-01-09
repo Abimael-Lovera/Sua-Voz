@@ -1,6 +1,6 @@
 :root {
 	--color-title: #262626;
-	--color-title1: #fff;
+	--color-title-light: #fbf2c0;
 	--color-subtitle: #a62940;
 	--color-bg: #fbf2c0;
 	--color-footer: #bf8069;
@@ -108,6 +108,8 @@
 }
 .conquistas__card-title {
 	font-size: 1.5rem;
+	text-align: center;
+	font-weight: 600;
 }
 
 /* Featurettes */
