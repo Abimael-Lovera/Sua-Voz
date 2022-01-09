@@ -98,7 +98,8 @@
 
 .equipe__card {
 	padding: 1rem;
-	width: 280px;
+	width: 290px;
+	height: 380px;
 	display: flex;
 	flex-direction: column;
 	text-align: center;
@@ -109,8 +110,9 @@
 .equipe__card:hover {
 	box-shadow: 1px 1px 10px 0px rgba(0, 0, 0, 0.3);
 }
-.equipe__card img {
+.equipe__card-img {
 	clip-path: polygon(50% 0%, 83% 12%, 100% 43%, 94% 78%, 68% 100%, 32% 100%, 6% 78%, 0% 43%, 17% 12%);
+	width: 200px;
 }
 .equipe__card-title {
 	margin: 0;
